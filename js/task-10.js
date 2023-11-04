@@ -16,6 +16,8 @@ boxes.style.gap = "10px";
 boxes.style.marginTop = "20px";
 
 function createBoxes(amount) {
+  destroyBoxes();
+
   if (boxes.innerHTML === "") {
     size = 30;
   }

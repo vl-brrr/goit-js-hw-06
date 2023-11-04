@@ -27,4 +27,4 @@ function galleryMaker(arr) {
   list.insertAdjacentHTML("beforeend", cards);
 }
 
-console.log(galleryMaker(images));
+galleryMaker(images);

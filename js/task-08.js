@@ -13,6 +13,6 @@ function handleSubmit(event) {
       password: password.value,
     };
     console.log(user);
+    form.reset();
   }
-  form.reset();
 }
